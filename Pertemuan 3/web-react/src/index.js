@@ -7,17 +7,23 @@ import Test from './LifeCycle';
 import HelloComponent from './HelloComponent';
 import Loginform from './tugas-login/form';
 
-class StateFullComponent extends Component {
-  render(){
-    return <p>StateFullComponent</p>
-  }
-}
+// function HelloComponent(){
+//   return <p>HelloComponent</p>
+// }
+// class StateFullComponent extends Component {
+//   render(){
+//     return <p>StateFullComponent</p>
+//   }
+// }
 
 ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-  <Loginform/>,
+  // <HelloComponent/>,
+  // <Test/>,
+  <App/>,
+  // <Loginform/>,
   document.getElementById('root')
 );
 
