@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AuthExample from './Auth';
+import NestingExample from './Nesting';
+import ParamsExample from './Params';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <App/>,
+  // <ParamsExample/>,
+  // <NestingExample/>,
+  // <AuthExample/>,
   document.getElementById('root')
 );
 
