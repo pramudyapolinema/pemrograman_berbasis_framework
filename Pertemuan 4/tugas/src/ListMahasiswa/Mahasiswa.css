@@ -1,0 +1,8 @@
+.footer-bottom {
+    background-color: #3b5998;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li.borderless { border: 0 none; }
