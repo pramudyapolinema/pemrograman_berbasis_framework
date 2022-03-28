@@ -13,7 +13,7 @@ class Products extends Component {
                             <div className="col-md-8 col-lg-12">
                                 <div className="header">
                                     <h3>Featured Product</h3>
-                                    <h2><Link to="/popular">Popular Products</Link> || <Link to="/random">Random Products</Link></h2>
+                                    <h2><Link to="/popular">Popular Products</Link> || <Link to="/other">Other Products</Link></h2>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@ class Products extends Component {
                             <Route path="/popular">
                                 <Popular/>
                             </Route>
-                            <Route path="/random">
+                            <Route path="/other">
                                 <Random/>
                             </Route>
                         </Switch>
@@ -55,8 +55,8 @@ function Random(){
         <div className="row">
             <Item number="product-1" name="Handphone" price="2.500.000" image="https://source.unsplash.com/random/300x300/?handphone" />
             <Item number="product-2" name="Laptop" price="15.000.000" image="https://source.unsplash.com/random/300x300/?laptop" />
-            <Item number="product-3" name="Topi" price="350.000" image="https://source.unsplash.com/random/300x300/?hat" />
-            <Item number="product-4" name="Celana" price="450.000" image="https://source.unsplash.com/random/300x300/?trouser" />
+            <Item number="product-3" name="Hardisk" price="400.000" image="https://source.unsplash.com/random/300x300/?hardisk" />
+            <Item number="product-4" name="Keyboard" price="750.000" image="https://source.unsplash.com/random/300x300/?keyboard" />
         </div>
     )
 }
