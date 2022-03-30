@@ -1,16 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {
-  Provider
-} from 'react-redux';
-import {
-  createStore,
-  applyMiddleware,
-  compose
-} from 'redux'
+import { Provider } from 'react-redux';
+import { createStore, compose } from 'redux'
 import MainReducer from './reducers/MainReducer'
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Table from './containers/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
