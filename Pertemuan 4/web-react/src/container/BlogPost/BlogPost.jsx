@@ -24,18 +24,18 @@ class BlogPost extends Component {
     }
 
     componentDidMount() {
-        this.ambilDataDariServerAPI()    
+        this.ambilDataDariServerAPI()
     }
-    
+
     handleHapusArtikel = (data) => {
-        fetch(`http://localhost:3001/posts/${data}`, {method: 'DELETE'})
+        fetch(`http://localhost:3001/posts/${data}`, { method: 'DELETE' })
             .then(res => {
                 this.ambilDataDariServerAPI()
             })
     }
 
     handleTambahArtikel = (event) => {
-        let formInsertArtikel = {...this.state.insertArtikel};
+        let formInsertArtikel = { ...this.state.insertArtikel };
         let timestamp = new Date().getTime();
         formInsertArtikel['id'] = timestamp;
         formInsertArtikel[event.target.name] = event.target.value;
@@ -59,13 +59,13 @@ class BlogPost extends Component {
     }
 
     render() {
-        return(
+        return (
             <div className="post-artikel">
                 <div className="form pb-2 border-bottom">
                     <div className="form-group row">
                         <label htmlFor="title" className="col-sm-2 col-form-label">Judul</label>
                         <div className="col-sm-10">
-                            <input type="text" className="form-control" id="title" name="title" onChange={this.handleTambahArtikel}/>
+                            <input type="text" className="form-control" id="title" name="title" onChange={this.handleTambahArtikel} />
                         </div>
                     </div>
                     <div className="form-group row">
@@ -79,7 +79,7 @@ class BlogPost extends Component {
                 <h2>Daftar Artikel</h2>
                 {
                     this.state.listArtikel.map(artikel => {
-                        return <Post key={artikel.id} judul={artikel.title} isi={artikel.body} idArtikel={artikel.id} hapusArtikel={this.handleHapusArtikel}/>
+                        return <Post key={artikel.id} judul={artikel.title} isi={artikel.body} idArtikel={artikel.id} hapusArtikel={this.handleHapusArtikel} />
                     })
                 }
             </div>

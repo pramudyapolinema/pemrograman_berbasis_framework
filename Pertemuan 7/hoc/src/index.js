@@ -15,7 +15,7 @@ ReactDOM.render(
   // <LoaderDemo/>,
   // <GenericContainerDemo/>,
   // <RequireAuthDemo/>,
-  // <RefsDemo/>,
+  <RefsDemo/>,
   document.getElementById('root')
 );
 

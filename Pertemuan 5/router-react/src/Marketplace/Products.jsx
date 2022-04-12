@@ -53,7 +53,7 @@ function Popular(){
 function Random(){
     return(
         <div className="row">
-            <Item number="product-1" name="Handphone" price="2.500.000" image="https://source.unsplash.com/random/300x300/?handphone" />
+            <Item number="product-1" name="Handphone" price="2.500.000" image="https://source.unsplash.com/random/300x300/?phone" />
             <Item number="product-2" name="Laptop" price="15.000.000" image="https://source.unsplash.com/random/300x300/?laptop" />
             <Item number="product-3" name="Hardisk" price="400.000" image="https://source.unsplash.com/random/300x300/?hardisk" />
             <Item number="product-4" name="Keyboard" price="750.000" image="https://source.unsplash.com/random/300x300/?keyboard" />
