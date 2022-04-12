@@ -1,0 +1,20 @@
+{
+  "listproduk": [
+    {
+      "userId": 1,
+      "id": 1,
+      "nama": "Kulkas 1 pintu",
+      "harga": "750000",
+      "stok": "10",
+      "gambar": "/images/kulkas1.jpg"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "nama": "Kulkas 2 pintu",
+      "harga": "750000",
+      "stok": "10",
+      "gambar": "/images/kulkas2.jpg"
+    }
+  ]
+}
