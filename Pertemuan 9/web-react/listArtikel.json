@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Workshop Amazon Web Services (AWS) Untuk Para Dosen Jurusan Teknologi Informasi Politeknik Negeri Malang",
+      "body": "Jumat (24/1/2020), Jurusan Teknologi Informasi Politeknik Negeri Malang (JTI Polinema)"
+    },
+    {
+      "userId": 1,
+      "id": 1647339285430,
+      "title": "Tim Polinema Raih Juara Kontes Robot Indonesia 2021 yang Diadakan Kemendikbud",
+      "body": "MALANG – Dua tim Politeknik Negeri Malang (Polinema) berhasil meraih pada ajang Kontes Robot Indonesia (KRI) yang diselenggarakan Pusat Prestasi Nasional, Kementerian Pendidikan dan Kebudayaan Republik Indonesia (Kemendikbud)."
+    },
+    {
+      "userId": 1,
+      "id": 1647392096331,
+      "title": "Judul Artikel",
+      "body": "Isi Artikel"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
