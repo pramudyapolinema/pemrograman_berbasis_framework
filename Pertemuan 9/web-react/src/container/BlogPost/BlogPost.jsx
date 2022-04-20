@@ -27,9 +27,9 @@ class BlogPost extends Component {
     }
 
     handleHapusArtikel = (data) => {
-        fetch(`http://localhost:3001/posts/${data}`, { method: 'DELETE' })
-            .then(res => {
-                this.ambilDataDariServerAPI()
+        API.deleteNewsBlog(data)
+            .then(response => {
+                this.ambilDataDariServerAPI();
             })
     }
 
