@@ -15,6 +15,22 @@
       "harga": "750000",
       "stok": "10",
       "gambar": "/images/kulkas2.jpg"
+    },
+    {
+      "userId": 1,
+      "id": 1649813350602,
+      "nama": "Kulkas besar",
+      "harga": "6500000",
+      "stok": "10",
+      "gambar": "/images/kulkas3.jpg"
+    },
+    {
+      "userId": 1,
+      "id": 1649813731959,
+      "nama": "Kulkas kecil",
+      "harga": "1500000",
+      "stok": "20",
+      "gambar": "/images/kulkas4.jpg"
     }
   ]
 }

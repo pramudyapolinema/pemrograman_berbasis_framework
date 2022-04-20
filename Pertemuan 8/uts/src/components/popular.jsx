@@ -95,12 +95,12 @@ class Popular extends Component {
                 <div className="row">
                     {
                         this.state.listProduk.map(produk => {
-                            return <Item key={produk.id} name={produk.nama} price={produk.harga} image={produk.gambar} idProduk={produk.id} hapusProduk={this.handleHapusProduk} tambahKeranjang={this.handleTombolKeranjang} />
+                            return <Item stok={produk.stok} key={produk.id} name={produk.nama} price={produk.harga} image={produk.gambar} idProduk={produk.id} hapusProduk={this.handleHapusProduk} tambahKeranjang={this.handleTombolKeranjang} />
                         })
                     }
                 </div>
                 <hr />
-                <h1>Tambahkan Produk</h1>
+                {/* <h1>Tambahkan Produk</h1>
                 <br />
                 <div className="form-group">
                     <label htmlFor="nama">Nama Produk</label>
@@ -118,7 +118,7 @@ class Popular extends Component {
                     <label htmlFor="gambar">Gambar Produk</label>
                     <input type="text" className="form-control" id="gambar" name="gambar" placeholder="Masukkan Gambar Produk" onChange={this.handleTambahProduk} />
                 </div>
-                <button type="submit" onClick={this.handleTombolSimpan} className="btn btn-primary">Submit</button>
+                <button type="submit" onClick={this.handleTombolSimpan} className="btn btn-primary">Submit</button> */}
             </div>
         )
     }

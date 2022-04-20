@@ -2,19 +2,11 @@
   "keranjang": [
     {
       "userId": 1,
-      "id": 1649804898826,
+      "id": 1649814091832,
       "jumlah": 1,
       "nama": "Kulkas 1 pintu",
       "harga": 750000,
       "gambar": "/images/kulkas1.jpg"
-    },
-    {
-      "userId": 1,
-      "id": 1649804993618,
-      "jumlah": 1,
-      "nama": "Kulkas 2 pintu",
-      "harga": 750000,
-      "gambar": "/images/kulkas2.jpg"
     }
   ]
 }
