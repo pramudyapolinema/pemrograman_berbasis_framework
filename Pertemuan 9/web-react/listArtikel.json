@@ -17,6 +17,12 @@
       "id": 1647392096331,
       "title": "Judul Artikel",
       "body": "Isi Artikel"
+    },
+    {
+      "userId": 1,
+      "id": 1650442898804,
+      "title": "Judul 1",
+      "body": "Isi 1"
     }
   ],
   "comments": [
