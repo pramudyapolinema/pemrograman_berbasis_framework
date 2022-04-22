@@ -1,0 +1,15 @@
+{
+  "mahasiswa": [
+    {
+      "id": 3,
+      "nim": 1941720054,
+      "nama": "Pramudya Wibowo",
+      "alamat": "Jl. Kembang Turi No. 34A, Kota Malang",
+      "hp": "082244101304",
+      "angkatan": 2019,
+      "status": "Aktif",
+      "NIM": "1941720054",
+      "body": "Jl. Kembang Turi No. 34A, Kota Malang"
+    }
+  ]
+}
